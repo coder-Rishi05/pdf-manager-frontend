@@ -8,7 +8,7 @@ const CreatePage = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
+ 
     if (!file) {
       alert("Please select an image");
       return;
