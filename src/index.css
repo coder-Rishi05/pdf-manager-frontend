@@ -1,12 +1,8 @@
 @import "tailwindcss";
-* {
-  box-sizing: border-box;
-  font-family: sans-serif;
-}
 
 @font-face {
-  font-family: Open;
-  src: url("https://fonts.googleapis.com/css2?family=Blaka+Hollow&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+  font-family: "Roboto";
+  src: url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 }
 
 html,
