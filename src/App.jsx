@@ -5,13 +5,16 @@ import Feed from './components/pages/Feed'
 import Home from './components/pages/Home'
 import Login from './auth/Login'
 import About from './components/layouts/About'
+import Dashboard from './components/pages/Dashboard'
 
 
 const App = () => {
   return (
     <Router>
      <Routes>
-      <Route path='/' element={<About />} />
+      <Route path='/' element={<Login />} />
+       {/* <Route path="/login" element={<GoogleLoginButton />} /> */}
+      <Route path="/dashboard" element={<Dashboard />} />
       <Route path='/create-post' element={<CreatePage />} />
       <Route path='/feed' element={<Feed />} />
       <Route path='/login' element={<Login />} />
